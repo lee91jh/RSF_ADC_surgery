@@ -1,0 +1,17 @@
+# Patient-level data and registry files must never be committed
+*.xlsx
+*.xls
+data/*.csv
+!data/dummy_data.csv
+
+# Fitted objects and results (generated locally by the notebooks)
+outputs/*
+!outputs/.gitkeep
+*.pkl
+*.joblib
+*.db
+*.docx
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
