@@ -14,8 +14,7 @@ The patient-level registry data used in this study cannot be shared publicly bec
 institutional regulations. The trained model is not distributed for the same reason.
 
 `data/dummy_data.csv` is a **synthetic dataset** with the same variable names and coding as the study data
-(6,000 rows; train/validation/test = 4,200/900/900). Values were randomly permuted across rows and columns, and the
-survival outcome is unrelated to the predictors. The dummy data allow every notebook to run end to end, but
+(6,000 rows; train/validation/test = 4,200/900/900). The dummy data allow every notebook to run end to end, but
 **the results do not reproduce the values reported in the manuscript** (expect C-index ≈ 0.5 on the validation
 and test sets).
 
